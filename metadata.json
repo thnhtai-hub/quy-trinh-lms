@@ -1,0 +1,5 @@
+{
+  "name": "Quy trình học tập",
+  "description": "Một ứng dụng web hiển thị quy trình học tập và tương tác giữa giáo viên, học sinh và phụ huynh.",
+  "requestFramePermissions": []
+}
