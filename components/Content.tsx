@@ -145,7 +145,7 @@ const Content: React.FC<ContentProps> = ({ steps, onStepInView }) => {
             >
               <header className="mb-8 flex flex-col sm:flex-row justify-between sm:items-center gap-4">
                 <h1 className="text-4xl font-bold text-blue-700">
-                  Bước {step.id}: {step.title} => {step.subtitle}
+                  {`Bước ${step.id}: ${step.title} \u2192 ${step.subtitle}`}
                 </h1>
                 {(() => {
                   const actor = step.title;
